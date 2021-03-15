@@ -1,4 +1,5 @@
 import Carousel from "./Carousel";
+import Slick from "./slick";
 import Slider from "./Slider";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <Slider />
       <h1>slider2</h1>
       <Carousel />
+      <h1>slider3</h1>
+      <Slick />
     </div>
   );
 }
